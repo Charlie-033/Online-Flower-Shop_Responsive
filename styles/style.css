@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+/* shared styles */
+.lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+colors{
+    background-color: #e5547322; 
+    color:#272727a0
+}
+/* header section */
+.header{
+    display: flex;
+    background-color: #e11f4922;
+    padding: 40px 195px;
+}
+.left-header{
+    margin: 160px 80px 120px 0px;
+}
+.header-h1{
+    font-size: 65px;
+    color: #272727;
+}
+.header-p{
+    font-size: 15px;
+    color:#272727a0;
+    margin: 32px 0px;
+    
+}
+.shop-btn{
+    padding: 16px 38px;
+    font-size: 20px;
+    color: white;
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+}
+.right-header{
+    width: 580px;
+}
+
+/* section two */
+.two-container{
+    margin: 20px 195px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.two-top{
+    text-align: center;
+    margin: 142px 500px 38px 500px;
+}
+.two-h1{
+    font-size: 32px;
+    color: #272727;
+}
+.two-p{
+    font-size: 15px;
+    color:#272727a0; 
+}
+
+.two-flower1 > img{
+    width: 80%;
+    margin-top: 85px;
+}
+.two-flower2 > img{
+    width: 100%;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+.two-flower3 > img{
+    width: 80%;
+    margin-top: 50px;
+}
+
+.two-flower1{
+    background-color: #a7216232;
+    border-radius: 20%;
+    width: 340px;
+}
+.two-flower2{
+    background-color: #f2f45691;
+    border-radius: 20%;
+    width: 340px;
+}
+.two-flower3{
+    background-color: #6fbfeb32;
+    border-radius: 20%;
+    width: 340px;
+}
+.flower-name{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 195px;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 50px;
+}
+
+
+
+/* Responsive for Smartphones */
+@media screen and (max-width: 576px){
+    .header{
+        flex-direction: column;
+        padding: 10px;
+        background-color: #e11f4922;
+    }
+    .left-header{
+        margin: 20px;
+    }
+    .right-header > img{
+        width: 94vw;
+    }
+    .right-header{
+        width: 100%;
+    }
+}
+
